@@ -1,0 +1,221 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center; 
+    color: rgb(14, 160, 82);
+    background-color: black;
+    text-decoration:solid ;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: -15px; 
+}
+.container
+{
+    height: 250px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 3rem;
+}
+.content
+{
+    height: 165px; 
+    width: 165px; 
+    border: 2px solid black;
+    border-radius: 50%;
+    object-fit:cover;
+    box-sizing: content-box;
+}
+.content:hover
+{
+    cursor: pointer; 
+    border: 5px solid red; 
+}
+#rock
+{
+    height: 165px; 
+    width: 165px;
+    border-radius: 50%; ; 
+}
+#scissor
+{
+    height: 165px; 
+    width: 165px;
+    border-radius: 50%; ; 
+}
+#paper
+{
+    height: 165px; 
+    width: 165px;
+    border-radius: 50%; ; 
+}
+.scorecard
+{
+    height: 100px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5rem;
+}
+.userscore
+{
+    width: 100px;
+    font-size: 20px; 
+    font-weight: 800;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(22, 145, 53);
+    border-radius: 10px;
+    color: white; 
+}
+.computerscore
+{
+    font-size: 20px; 
+    font-weight: 800;
+    text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(22, 145, 53);
+    border-radius: 10px;
+    color: white; 
+}
+.msg
+{
+    height: 100px;
+    text-align: center ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 5rem;
+}
+#msg-inner
+{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color:chocolate ; 
+    border-radius: 10px;
+    font-weight: 600; 
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.show
+{
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 5rem;
+}
+.usershow
+{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(53, 124, 181);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.computershow
+{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(53, 124, 181);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-weight: 900;
+    color: #ffffff;
+}
+/* .line
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.line p 
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(71, 3, 3);
+    font-style: italic;
+    display: inline; 
+    background-color: rgb(38, 175, 141);
+    border-radius: 10px; 
+} */
+.extra
+{
+    height: 80px; 
+    display: flex; 
+    margin-top: 10px; 
+    gap: 5rem ; 
+    justify-content: center; 
+    align-items: center;  
+}
+.you
+{
+    font-size: 20px; 
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color:  rgb(38, 175, 141);
+    height: 50px; 
+    width: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px; 
+    color: rgb(71, 3, 3);
+    cursor: pointer;
+}
+.computer
+{
+    font-size: 20px; 
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color:  rgb(38, 175, 141);
+    height: 50px; 
+    width: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px; 
+    position: relative; 
+    color: rgb(71, 3, 3);
+    cursor: pointer;
+}
+#reset
+{
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(234, 84, 111);
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: solid; 
+    cursor: pointer; 
+} 
+.every
+{
+    border: 1px solid transparent;
+}
+.every:hover
+{
+    cursor: pointer;
+    background-color: darksalmon; 
+    border:5px solid red; 
+}
